@@ -1791,7 +1791,7 @@
       ]
     },
     "DocumentFormat.OpenXml/2.7.2": {
-      "sha512": "u9usZhU+cn/WG32UR1FbmKemC/O8hDssXWr1oFhAUR3WZTMl35mLRVVfaKH/3CNoxV8um8uGrK+7rpwxJUtCiA==",
+      "sha512": "tWT7iu0ab9PNoMTWjv24rt+qnyqvcnPOYs167vPnk4aegAYSAxoUjwNW+VxY8xoLtJntQ/JlWTi7Vt+8TghLlQ==",
       "type": "package",
       "path": "documentformat.openxml/2.7.2",
       "files": [
@@ -1810,7 +1810,7 @@
       ]
     },
     "ExcelNumberFormat/1.0.3": {
-      "sha512": "aaGuC0/GuMhUlTHnwVqljfCPC18gU1HNieqt0Zc1OEZqsP0O4WgwM7fuRpzaEjZuM4g/v4vVU7g98I1Mm8VOZw==",
+      "sha512": "ZPF7p4+qUJA6KKHoCTbzCEFZ0G4U8g3lusma5MFNy+NSqR165Z16Z5c1vRE/pKfQxVNGkGHfJtj/xmArenwj/w==",
       "type": "package",
       "path": "excelnumberformat/1.0.3",
       "files": [
@@ -2477,11 +2477,12 @@
       ]
     },
     "runtime.native.System.Data.SqlClient.sni/4.3.0": {
-      "sha512": "rX1bLxiHjj+ivd4bL9RwCvKM7agWHceLrAFsPQryTX0ZZ1J7x6vSz779YgMih0S4yD/GTvr7+dajBVutzJVvBg==",
+      "sha512": "OTj8ZA2rSLT8U1Hx4KAJ7W/CrSCOMOWc8d5IQcr5re+VgGLdmXpJOxGMlslEpEMJULLQIN1iH7E//U3OiDIosw==",
       "type": "package",
       "path": "runtime.native.system.data.sqlclient.sni/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.native.system.data.sqlclient.sni.4.3.0.nupkg.sha512",
@@ -2658,11 +2659,12 @@
       ]
     },
     "runtime.win7-x64.runtime.native.System.Data.SqlClient.sni/4.3.0": {
-      "sha512": "j42JRgYOMi6B86attv8F3eDBISh+kzoKxLsu0zaq1ioY+je64chWd8fybvk9yPzayO3Dh1czhmf5B7rbafLRQA==",
+      "sha512": "pvcoCbKd3mS40SCmSuXZ1ewlrCsBqfsG5B1naRK3kI0/T81ALZrpa3ctRqo9hK8Wh4/u3geu9eB7+GgSBRZCmw==",
       "type": "package",
       "path": "runtime.win7-x64.runtime.native.system.data.sqlclient.sni/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "OpenCoreFxSyncInfo.txt",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -2672,11 +2674,12 @@
       ]
     },
     "runtime.win7-x86.runtime.native.System.Data.SqlClient.sni/4.3.0": {
-      "sha512": "4cXRTIcttvIreAoqK/5hzTtzepeggac+m5A0rzH+9zLtnFh2J0rLuGeJR4KjNLyKqPzO0kjqrs5lkRJEKX8HAA==",
+      "sha512": "WBnyP6iUZTctdKJU4IULYWgHY+0u3NrvpwQi++gs0lowdwUY8HGLpLE8A5oy2vxcgkqjsqloMkoXH9m6HL0b2Q==",
       "type": "package",
       "path": "runtime.win7-x86.runtime.native.system.data.sqlclient.sni/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "OpenCoreFxSyncInfo.txt",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -2872,11 +2875,12 @@
       ]
     },
     "System.Data.Common/4.3.0": {
-      "sha512": "lm6E3T5u7BOuEH0u18JpbJHxBfOJPuCyl4Kg1RH10ktYLp5uEEE1xKrHW56/We4SnZpGAuCc9N0MJpSDhTHZGQ==",
+      "sha512": "OGX4ifHI67s/2KRrXGMmEjmszCptbhWS4BieBdiBPl/8pn0A1xPMx0Gn0dKK0zKtEaelYNh5M7M5lCZL0EA4eA==",
       "type": "package",
       "path": "system.data.common/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2922,11 +2926,12 @@
       ]
     },
     "System.Data.SqlClient/4.3.0": {
-      "sha512": "XmWg+/uUcME++m/vsRzxq1fo0GvlYzFfZM5fCqIIDT+O7AwDdpfd1LkRXmcxeTJQTCgx5AN3Y3t5qSz5XxQLVw==",
+      "sha512": "LMso9eTZOQKau/i4TcEhyHXCDkXV5jmm6qxfUqx6GceqgTHo5I3UA8mT4iIgwOklc6rbXKzzZrA2VSHD9hwBEg==",
       "type": "package",
       "path": "system.data.sqlclient/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3624,7 +3629,7 @@
       ]
     },
     "System.IO.Packaging/4.0.0": {
-      "sha512": "9TuysO6d3y3/0PzdllpPp2UeI4j5nJ9TYYz9QyzHd2ycxDcxpoafO6JEYPyRcwPjTauPrD1DBJDsd46G8T4Ntg==",
+      "sha512": "taPqPWcAj/h6e/c+zIWIVe1ddJtpV6acC6g9GpolxUcIwUaH6zc0ZbFS8kkVzBkuWv76pMalKeTzfmHtfT1pXA==",
       "type": "package",
       "path": "system.io.packaging/4.0.0",
       "files": [
@@ -3641,11 +3646,12 @@
       ]
     },
     "System.IO.Pipes/4.3.0": {
-      "sha512": "wpGJuACA6r8+KRckXoI6ghGTwgPRiICI6T7kgHI/m7S5eMqV/8jH37fzAUhTwIe9RwlH/j1sWwm2Q2zyXwZGHw==",
+      "sha512": "icYhp3qO8V/i9oYVTLPwwsheO/hk5STybUNPZw1x4E2Hubf6DchpvNDlRSCNLZC5yVjvOzCBIh3nRam397KG1w==",
       "type": "package",
       "path": "system.io.pipes/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net46/System.IO.Pipes.dll",
@@ -5589,11 +5595,12 @@
       ]
     },
     "System.Threading.Overlapped/4.3.0": {
-      "sha512": "m3HQ2dPiX/DSTpf+yJt8B0c+SRvzfqAJKx+QDWi+VLhz8svLT23MVjEOHPF/KiSLeArKU/iHescrbLd3yVgyNg==",
+      "sha512": "JpukcZA7kre2gQ7GrhtvZu1xv/LVEG5HV9AajQ3XV7l36T6ICalw/llfkBHeK/eqo8UWpMNqkWGCzzlSuqE6pg==",
       "type": "package",
       "path": "system.threading.overlapped/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net46/System.Threading.Overlapped.dll",
@@ -5911,23 +5918,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jack\\.nuget\\packages\\": {},
+    "C:\\Users\\IntegraLabs\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\JACK\\C# ASP NET Study\\GerandoPlanilhaCSharp\\ExportarPlanilha\\ExportarPlanilha\\ExportarPlanilha.csproj",
+      "projectUniqueName": "C:\\Development\\GerarPlanilhaExcel\\ExportarPlanilha\\ExportarPlanilha\\ExportarPlanilha.csproj",
       "projectName": "ExportarPlanilha",
-      "projectPath": "G:\\JACK\\C# ASP NET Study\\GerandoPlanilhaCSharp\\ExportarPlanilha\\ExportarPlanilha\\ExportarPlanilha.csproj",
-      "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
-      "outputPath": "G:\\JACK\\C# ASP NET Study\\GerandoPlanilhaCSharp\\ExportarPlanilha\\ExportarPlanilha\\obj\\",
+      "projectPath": "C:\\Development\\GerarPlanilhaExcel\\ExportarPlanilha\\ExportarPlanilha\\ExportarPlanilha.csproj",
+      "packagesPath": "C:\\Users\\IntegraLabs\\.nuget\\packages\\",
+      "outputPath": "C:\\Development\\GerarPlanilhaExcel\\ExportarPlanilha\\ExportarPlanilha\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\IntegraLabs\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

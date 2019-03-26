@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Data;
 using ClosedXML.Excel;
 namespace ExportarPlanilha
 {
@@ -8,6 +10,38 @@ namespace ExportarPlanilha
         {
             Console.WriteLine("Gerando Arquivo");
 
+            Metodo1();
+
+        }
+
+        public static void Metodo2(string[] header, List<ObjetoASerExportado> listaDeObjetosASeremExportados)
+        {
+            var dataTableExcel = new DataTable("Planilha");
+
+            foreach (var cell in header)
+            {
+                dataTableExcel.Columns.Add(cell);
+            }
+
+            foreach (var item in listaDeObjetosASeremExportados)
+            {
+                dataTableExcel.Rows.Add();
+                dataTableExcel.Rows[dataTableExcel.Rows.Count - 1][0] = item.property1;
+                dataTableExcel.Rows[dataTableExcel.Rows.Count - 1][1] = item.property2;
+                dataTableExcel.Rows[dataTableExcel.Rows.Count - 1][2] = item.property3;
+                dataTableExcel.Rows[dataTableExcel.Rows.Count - 1][3] = item.property4;
+            }
+
+            XLWorkbook wb = new XLWorkbook();
+            wb.Worksheets.Add(dataTableExcel);
+
+            wb.SaveAs(@"C:\Users\IntegraLabs\Desktop\teste_planilha.xlsx");
+            wb.Dispose();
+        }
+
+
+        public static void Metodo1()
+        {
             var wb = new XLWorkbook();
             var ws = wb.Worksheets.Add("Planilha 1");
 
@@ -30,7 +64,7 @@ namespace ExportarPlanilha
             //Corpo do Relatorio
             var linha = 4;
 
-            for(int i = 0; i<20; i++)
+            for (int i = 0; i < 20; i++)
             {
                 ws.Cell("B" + linha.ToString()).Value = "B" + i.ToString();
                 ws.Cell("C" + linha.ToString()).Value = "C" + i.ToString();
@@ -64,5 +98,13 @@ namespace ExportarPlanilha
             Console.WriteLine("Finalizado");
             Console.ReadKey();
         }
+    }
+
+    public class ObjetoASerExportado
+    {
+        public string property1 { get; set; }
+        public string property2 { get; set; }
+        public string property3 { get; set; }
+        public string property4 { get; set; }
     }
 }
